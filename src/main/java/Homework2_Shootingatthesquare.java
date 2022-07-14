@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ShootingatthesquareHomework2 {
+public class Homework2_Shootingatthesquare {
     public static void main(String[] args) {
         System.out.println(" All set. Get ready to rumble!");
         String[][] square = new String[5][5];
