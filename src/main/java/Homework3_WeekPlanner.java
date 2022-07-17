@@ -19,7 +19,7 @@ public class Homework3_WeekPlanner {
         schedule [6][1] = "do the homework";
 
         for (int i = 0; i <schedule.length ; i++){
-           git System.out.println("Please, input the day of the week");
+            System.out.println("Please, input the day of the week");
             Scanner scanner = new Scanner(System.in);
             String task = scanner.nextLine().trim().toLowerCase();
             switch (task){
@@ -46,4 +46,3 @@ public class Homework3_WeekPlanner {
 
     }
 }
-
