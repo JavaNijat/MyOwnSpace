@@ -6,6 +6,8 @@ public class Homework2_Shootingatthesquare {
         String[][] square = new String[5][5];
         int i;
         int j;
+        int row= (int)(Math.random()*(4+1));
+        int col= (int)(Math.random()*(4+1));
         for ( i = 0; i < 5; i++) {
             for ( j = 0; j < 5; j++) {
                 square[i][j] = "- | ";
@@ -19,8 +21,7 @@ public class Homework2_Shootingatthesquare {
                 }
                 System.out.println(" ");
             }
-            int row= (int)(Math.random()*(4+1));
-            int col= (int)(Math.random()*(4+1));
+
             System.out.println("Please, enter a line for fire: ");
             Scanner in = new Scanner(System.in);
             int line = in.nextInt();
