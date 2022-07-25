@@ -27,7 +27,7 @@ public class Homework2_Shootingatthesquare {
             System.out.println("Please, enter a shooting bar: ");
             Scanner in1 = new Scanner(System.in);
             int bar = in1.nextInt();
-            if(line>0 && line<5 && bar>0 && bar<5){
+            if(line>=0 && line<=5 && bar>=0 && bar<=5){
                 if(line!=row && bar!=col){
                     square[line][bar]="* | ";
                 }
@@ -45,12 +45,10 @@ public class Homework2_Shootingatthesquare {
                     break;  }
             }
             else{
-                System.out.println("Please enter the number in 0-5 interval");
+                System.out.println("Please enter the number in [0 5] interval");
             }
         }
 
     }
 
 }
-
-
